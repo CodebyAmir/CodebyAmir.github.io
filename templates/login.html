@@ -25,12 +25,12 @@
 
             <!-- Login Form -->
             <form class="space-y-4" action="" method="POST">
-                {% csrf_token %}
+            {% csrf_token %}
     
                 {% if error_message %}
                     <div class="text-red-600 text-center">
                         <h2>
-                            {{ error_message}}
+                            {{ error_message }}
                         </h2>
                     </div>
                 {% endif %}
